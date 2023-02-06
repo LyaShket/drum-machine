@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/drum-machine/static/css/main.b68e90f5.css",
+    "main.js": "/drum-machine/static/js/main.827d810b.js",
+    "static/js/787.c419f7a1.chunk.js": "/drum-machine/static/js/787.c419f7a1.chunk.js",
+    "static/media/deep-dark-horror-drum.mp3": "/drum-machine/static/media/deep-dark-horror-drum.dcd39b0a724890ae65de.mp3",
+    "static/media/soft-horror-hit-drum.mp3": "/drum-machine/static/media/soft-horror-hit-drum.97a886ed701b9f5ac399.mp3",
+    "static/media/ominous-drums.mp3": "/drum-machine/static/media/ominous-drums.aa1e10509662480ab7a7.mp3",
+    "static/media/hand-tribal-drum.mp3": "/drum-machine/static/media/hand-tribal-drum.5fe5cb80c60ccfaef3e6.mp3",
+    "static/media/tribal-drum-echoes.mp3": "/drum-machine/static/media/tribal-drum-echoes.6b6ba1b3c82c21ccbdb9.mp3",
+    "static/media/spring-metal-hit.mp3": "/drum-machine/static/media/spring-metal-hit.7c3432dbe801247363da.mp3",
+    "static/media/joke-drums.mp3": "/drum-machine/static/media/joke-drums.43c00216cbe149ab37c1.mp3",
+    "static/media/negative-tone-interface-tap.mp3": "/drum-machine/static/media/negative-tone-interface-tap.d7a8db5b48f603c399e0.mp3",
+    "static/media/drum-and-percussion.mp3": "/drum-machine/static/media/drum-and-percussion.416502cecb1782334d39.mp3",
+    "index.html": "/drum-machine/index.html",
+    "main.b68e90f5.css.map": "/drum-machine/static/css/main.b68e90f5.css.map",
+    "main.827d810b.js.map": "/drum-machine/static/js/main.827d810b.js.map",
+    "787.c419f7a1.chunk.js.map": "/drum-machine/static/js/787.c419f7a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b68e90f5.css",
+    "static/js/main.827d810b.js"
+  ]
+}
