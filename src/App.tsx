@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import SoundButton from './SoundButton/SoundButton';
+import { drumSounds } from './drumSounds';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  const sounds = drumSounds;
+
+  const [state, setState] = useState({ title: 'Press any button' });
+
+  const changeTitle = (title: string) => {
+    setState({ title });
+  }
+
+  const soundButtons = sounds.map((sound) => {
+    return <SoundButton button={sound.button}
+                        name={sound.name}
+                        audio={sound.audio}
+                        changeTitle={changeTitle}
+                        key={sound.button}/>
+  });
+
+  return <main id="drum-machine">
+    <h1 id="display">{state.title}</h1>
+    <div className="keysContainer">
+      {soundButtons}
     </div>
-  );
+  </main>;
 }
 
 export default App;
